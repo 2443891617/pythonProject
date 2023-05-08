@@ -9,4 +9,7 @@ web = "https://pypi.tuna.tsinghua.edu.cn/simple "  # 清华大学镜像源。
 # web = "http://pypi.douban.com/simple "  # 豆瓣镜像源。
 for lib in libs:
     lib=lib.rstrip("\n") # 去掉换行符 "\n"
+    mmm=1111
+    m=111
+    mm=1111
     os.system("pip3 install -i "+ web + lib) # 选择其中一个镜像源，下载安装库。
